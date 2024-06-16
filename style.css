@@ -1,0 +1,51 @@
+.circle {
+    height: 500px;
+    width:  500px;
+    background-color: lightblue;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 40px;
+    position: relative;
+}
+
+.hour, .minute, .second {
+    background: #333;
+    position : absolute;
+    transform-origin: 50% 100%;
+}
+
+.hour{
+    height: 150px;
+    width: 9px;
+    top: 100px;
+    left: 245px;
+    
+}
+
+.minute{
+    height: 220px;
+    width: 4px;
+    top: 30px;
+    left: 248px;
+   
+    
+}
+
+.second{
+    height: 200px;
+    width: 2px;
+    top: 50px;
+    left: 249px;
+  
+}
+
+.number {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    transform-origin: 50% 50%;
+    color: black;
+}
+
+
